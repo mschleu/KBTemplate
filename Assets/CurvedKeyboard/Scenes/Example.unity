@@ -7119,6 +7119,7 @@ GameObject:
   - component: {fileID: 1509739455}
   - component: {fileID: 1509739457}
   - component: {fileID: 1509739456}
+  - component: {fileID: 1509739458}
   m_Layer: 0
   m_Name: Manager
   m_TagString: Untagged
@@ -7166,6 +7167,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fafe1e8a4ca506f4ba27d1c2a049903b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1509739458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1509739454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d9c99c6ca7814d4e8c086e6de8b54ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  t: 0
+  startTime: 0
+  buttonTime: 0
+  currentTime: 0
+  since_start: 0
+  since_button: 0
+  started: 0
 --- !u!1 &1511919961
 GameObject:
   m_ObjectHideFlags: 0
@@ -8486,7 +8505,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.00000014899922, y: -3}
+  m_AnchoredPosition: {x: -0.00000046828094, y: -3}
   m_SizeDelta: {x: 10, y: 10}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1873989682
@@ -9502,7 +9521,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.00000037015943, y: -1}
+  m_AnchoredPosition: {x: -0.000000212604, y: -1}
   m_SizeDelta: {x: 10, y: 10}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1999520680
